@@ -4,7 +4,8 @@
   "description": "Simple application for getting the weather and displaying it in a hopefully nice frontend application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   "homepage": "https://github.com/keganpowers34/weather-broadcast#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "weather-js": "^2.0.0"
+    "weather-js": "^2.0.0",
+    "weather.js": "^0.1.0"
   },
   "devDependencies": {
     "tailwindcss": "^3.0.24"
