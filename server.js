@@ -2,7 +2,7 @@ var weather = require('weather-js');
 var express = require('express');
 
 var app = express();
-app.get('/api/:cs/:dt', async (req, res) => {
+app.get('/api/:cs&:dt', async (req, res) => {
   const cs = req.params.cs;
   const dt = req.params.dt;
 
