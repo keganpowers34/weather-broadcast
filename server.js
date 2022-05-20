@@ -1,8 +1,6 @@
 var weather = require('weather-js');
-
-// Options:
-// search:     location name or zipcode
-// degreeType: F or C
+var express = require('express');
+var app = express();
 
 weather.find({search: 'San Francisco, CA', degreeType: 'F'}, function(err, result) {
   if(err) console.log(err);
